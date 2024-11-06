@@ -6,7 +6,7 @@ namespace HotelSearchAPI.Repository
     public class HotelRepository : IHotelRepository
     {
 
-        private List<Hotel> _hotels = new List<Hotel>();
+        private static List<Hotel> _hotels = new List<Hotel>(); 
 
         public async Task<List<Hotel>> GetAllHotelsAsync()
         {
