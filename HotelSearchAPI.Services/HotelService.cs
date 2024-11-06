@@ -52,9 +52,5 @@ namespace HotelSearchAPI.Services
             await _hotelRepository.DeleteHotelAsync(id);
         }
 
-        public void CreateHotelAsync(Hotel hotel)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
