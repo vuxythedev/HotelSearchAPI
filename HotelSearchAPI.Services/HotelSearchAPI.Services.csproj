@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelSearchAPI.RepositoryContracts\HotelSearchAPI.RepositoryContracts.csproj" />
+    <ProjectReference Include="..\HotelSearchAPI.Repository\HotelSearchAPI.Repository.csproj" />
+    <ProjectReference Include="..\HotelSearchAPI.ServiceContracts\HotelSearchAPI.ServiceContracts.csproj" />
+  </ItemGroup>
+
+</Project>
